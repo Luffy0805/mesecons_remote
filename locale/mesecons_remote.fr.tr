@@ -13,10 +13,10 @@ Receiver ID: ..id=ID du récepteur : ..id
 Remote Receiver (ON)=Récepteur à distance (ALLUMÉ)
 Mesecons Remote=Télécommande Mesecons
 Remote Configuration=Configuration de la télécommande
-Left Channel ID=ID du canal gauche
-Right Channel ID=ID du canal droit
-Shift+Left Click ID=Maj+Clic gauche ID
-Shift+Right Click ID=Maj+Clic droit ID
+Left Channel ID=ID du clic gauche
+Right Channel ID=ID du clic droit
+Shift+Left Click ID=ID du Maj+Clic gauche
+Shift+Right Click ID=ID du Maj+Clic droit
 Save=Enregistrer
 No receiver found for this ID.=Aucun récepteur trouvé pour cet ID
 Shift+Left Click channel not set.=Canal Maj+Clic gauche non défini
@@ -34,7 +34,8 @@ Receiver %s : (%d, %d, %d), %s=Récepteur %s : (%d, %d, %d), %s
 
 (Shift+Right Click)=(Shift+Clic Droit)
 (Shift+Left Click)=(Shift+Clic Gauche)
-(Right Click)=(Clic droit)
+(Right Click)=(Clic Droit)
 (Left Click)=(Clic Gauche)
 lever=levier
 button=bouton
+
