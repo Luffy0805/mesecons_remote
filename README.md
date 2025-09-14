@@ -27,7 +27,7 @@ Receivers display their current state (`ON` or `OFF`) directly in their infotext
 ## Features
 
 * Remote `ON/OFF` receivers for Mesecons
-* Configuration form accessible by pressing 'Aux1 + left click' with the remote
+* Configuration form accessible by pressing `Aux1 + left click` with the remote
 * Remote configurable with **4 channels**:
 
   * Left Click
