@@ -29,6 +29,7 @@ Les récepteurs affichent leur état actuel (`ON` ou `OFF`) directement dans leu
 ## Fonctionnalités
 
 * Récepteurs distants `ON/OFF` pour Mesecons
+* Formulaire de configuration accessible en faisant 'Aux1 + lic gauche' avec la télécommande
 * Télécommande configurable avec **4 canaux** :
 
   * Left Click
