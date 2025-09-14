@@ -1,5 +1,8 @@
 # textdomain: mesecons_remote
 
+Add a remote control that allows you to remotely control a Mesecons receiver.=
+
+
 Receiver ID: %s (ON)=
 Receiver ID: %s (OFF)=
 Remote Receiver (OFF)=
@@ -29,3 +32,10 @@ No receiver found for ID ..id=
 Invalid position for ID ..id=
 Receiver ID ..id not found in world (node missing)=
 Receiver %s : (%d, %d, %d), %s=
+
+(Shift+Right Click)=
+(Shift+Left Click)=
+(Right Click)=
+(Left Click)=
+lever=
+button=
