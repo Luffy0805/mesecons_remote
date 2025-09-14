@@ -193,7 +193,7 @@ minetest.register_tool(REMOTE_ITEM, {
             local mode3 = meta:get_string("mode3") or "button"
             if id3 ~= "" then
                 local ok = trigger_receiver_by_id(id3, mode3)
-                minetest.chat_send_player(pname, ok and S(string.format("ID %s, %s (Shift+Left Click)", id3, mode3=="button" and "button" or "lever"))
+                minetest.chat_send_player(pname, ok and string.format("ID %s, %s "..S("(Shift+Left Click)"), id3, mode3=="button" and "button" or "lever")
                     or S("No receiver found for this ID."))
             else
                 minetest.chat_send_player(pname,S("Shift+Left Click channel not set."))
@@ -205,7 +205,7 @@ minetest.register_tool(REMOTE_ITEM, {
         local mode1 = meta:get_string("mode1") or "button"
         if id1 ~= "" then
             local ok = trigger_receiver_by_id(id1, mode1)
-            minetest.chat_send_player(pname, ok and S(string.format("ID %s, %s (Left Click)", id1, mode1=="button" and "button" or "lever"))
+            minetest.chat_send_player(pname, ok and string.format("ID %s, %s "..S("(Left Click)"), id1, mode1=="button" and "button" or "lever")
                 or S("No receiver found for this ID."))
         else
             minetest.chat_send_player(pname,S("Left Click channel not set."))
@@ -227,7 +227,7 @@ minetest.register_tool(REMOTE_ITEM, {
         if controls.sneak then
             if id4 ~= "" then
                 local ok = trigger_receiver_by_id(id4, mode4)
-                minetest.chat_send_player(pname, ok and S(string.format("ID %s, %s (Shift+Right Click)", id4, mode4=="button" and "button" or "lever"))
+                minetest.chat_send_player(pname, ok and string.format("ID %s, %s " .. S("(Shift+Right Click)"), id4, mode4=="button" and "button" or "lever")
                     or S("No receiver found for this ID."))
             else
                 minetest.chat_send_player(pname,S("Shift+Right Click channel not set."))
@@ -237,7 +237,7 @@ minetest.register_tool(REMOTE_ITEM, {
 
         if id2 ~= "" then
             local ok = trigger_receiver_by_id(id2, mode2)
-            minetest.chat_send_player(pname, ok and S(string.format("ID %s, %s (Right Click)", id2, mode2=="button" and "button" or "lever"))
+            minetest.chat_send_player(pname, ok and string.format("ID %s, %s "..S("(Right Click)"), id2, mode2=="button" and "button" or "lever")
                 or S("No receiver found for this ID."))
         else
             minetest.chat_send_player(pname,S("Right Click channel not set."))
