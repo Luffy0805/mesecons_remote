@@ -1,0 +1,31 @@
+# textdomain: mesecons_remote
+
+Receiver ID: %s (ON)=ID du récepteur : %s (ALLUMÉ)
+Receiver ID: %s (OFF)=ID du récepteur : %s (ÉTEINT)
+Remote Receiver (OFF)=Récepteur à distance (ÉTEINT)
+Receiver ID: ..id.. (OFF)=ID du récepteur : ..id.. (ÉTEINT)
+ID %s saved to right channel.=ID %s enregistré sur le canal droit
+No receiver found for this ID.=Aucun récepteur trouvé pour cet ID
+Remote right channel: %s (this receiver is %s)=Canal droit à distance : %s (ce récepteur est %s)
+Receiver ID: ..id=ID du récepteur : ..id
+Remote Receiver (ON)=Récepteur à distance (ALLUMÉ)
+Mesecons Remote=Télécommande Mesecons
+Remote Configuration=Configuration de la télécommande
+Left Channel ID=ID du canal gauche
+Right Channel ID=ID du canal droit
+Shift+Left Click ID=Maj+Clic gauche ID
+Shift+Right Click ID=Maj+Clic droit ID
+Save=Enregistrer
+No receiver found for this ID.=Aucun récepteur trouvé pour cet ID
+Shift+Left Click channel not set.=Canal Maj+Clic gauche non défini
+Left Click channel not set.=Canal Clic gauche non défini
+Shift+Right Click channel not set.=Canal Maj+Clic droit non défini
+Right Click channel not set.=Canal Clic droit non défini
+Warning: no receiver found for ID ..id=Avertissement : aucun récepteur trouvé pour l'ID ..id
+Remote: configuration saved.=Télécommande : configuration enregistrée
+Shows position and state of a receiver by ID=Affiche la position et l'état d'un récepteur par ID
+Please provide a valid ID, e.g., /receiver R0001=Veuillez fournir un ID valide, par ex. /receiver R0001
+No receiver found for ID ..id=Aucun récepteur trouvé pour l'ID ..id
+Invalid position for ID ..id=Position invalide pour l'ID ..id
+Receiver ID ..id not found in world (node missing)=ID du récepteur ..id introuvable dans le monde (bloc manquant)
+Receiver %s : (%d, %d, %d), %s=Récepteur %s : (%d, %d, %d), %s

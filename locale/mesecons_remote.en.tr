@@ -1,0 +1,31 @@
+# textdomain: mesecons_remote
+
+Receiver ID: %s (ON)=
+Receiver ID: %s (OFF)=
+Remote Receiver (OFF)=
+Receiver ID: ..id.. (OFF)=
+ID %s saved to right channel.=
+No receiver found for this ID.=
+Remote right channel: %s (this receiver is %s)=
+Receiver ID: ..id=
+Remote Receiver (ON)=
+Mesecons Remote=
+Remote Configuration=
+Left Channel ID=
+Right Channel ID=
+Shift+Left Click ID=
+Shift+Right Click ID=
+Save=
+No receiver found for this ID.=
+Shift+Left Click channel not set.=
+Left Click channel not set.=
+Shift+Right Click channel not set.=
+Right Click channel not set.=
+Warning: no receiver found for ID ..id=
+Remote: configuration saved.=
+Shows position and state of a receiver by ID=
+Please provide a valid ID, e.g., /receiver R0001=
+No receiver found for ID ..id=
+Invalid position for ID ..id=
+Receiver ID ..id not found in world (node missing)=
+Receiver %s : (%d, %d, %d), %s=
