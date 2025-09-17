@@ -102,4 +102,5 @@ mods/
 ## Licence
 
 Code : MIT
-Textures : MIT
+Media License: CC0 1.0 Universal
+Note: Toutes les textures ont été généré par l'IA
