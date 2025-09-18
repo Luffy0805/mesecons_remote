@@ -337,3 +337,21 @@ minetest.register_chatcommand("receiver", {
         return true, msg
     end
 })
+
+minetest.register_craft({
+    output = "mesecons_remote:remote",
+    recipe = {
+        {"mesecons:wire_00000000_off", "mesecons_torch:mesecon_torch_on", "mesecons:wire_00000000_off"},
+        {"mesecons_detector:node_detector_off", "default:steel_ingot", "mesecons_switch:mesecon_switch_off"},
+        {"mesecons_luacontroller:luacontroller0000", "mesecons_materials:silicon", "mesecons_luacontroller:luacontroller0000"},
+    }
+})
+
+minetest.register_craft({
+    output = "mesecons_remote:receiver",
+    recipe = {
+        {"mesecons:wire_00000000_off", "mesecons_torch:mesecon_torch_on", "mesecons:wire_00000000_off"},
+        {"mesecons_detector:node_detector_off", "default:steelblock", "mesecons_switch:mesecon_switch_off"},
+        {"mesecons:wire_00000000_off", "mesecons_luacontroller:luacontroller0000", "mesecons:wire_00000000_off"},
+    }
+})
